@@ -1,12 +1,11 @@
-# postdoc-project
-Descrição do Repositório
+# Postdoc-project
+Repository Description
+This repository contains files related to the postdoctoral project "Impacts of extratropical cyclones on wind and precipitation extremes in southeastern South America: present climate and future projections using regional climate models (CORDEX) and high-resolution global climate models (HighResMIP)", funded by CNPq and FAPESP.
 
-Este repositório contém arquivos relacionados ao projeto de pós-doutorado "Impactos dos ciclones extratropicais nos extremos de vento e precipitação no sudeste da América do Sul: clima atual e projeções futuras usando modelos climáticos regionais (CORDEX) e modelos globais de alta resolução (HighResMIP)", financiado pelo CNPq e FAPESP.
+Available materials include:
 
-Aqui estão disponíveis:
+* Processed data used in the project’s analyses.
+* Code developed for data processing, analysis, and visualization.
+* Scientific articles (submitted, accepted, or published) within the project scope.
 
-* Dados processados utilizados nas análises do projeto.
-* Códigos desenvolvidos para processamento, análises e visualização dos dados.
-* Artigos científicos submetidos, aceitos ou publicados no âmbito do projeto.
-
-Além disso, o repositório inclui uma seção dedicada a trabalhos colaborativos (artigos aceitos ou publicados) nos quais participei durante a vigência do projeto, em parceria com outros pesquisadores.
+Additionally, the repository features a section dedicated to collaborative work (accepted or published articles) involving partnerships with other researchers during the project’s duration.
