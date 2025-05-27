@@ -1,0 +1,12 @@
+1. Tracks were produced using vertically averaged vorticity between 850 hPa and 600 hPa, filtered to T63 resolution.
+
+2. The intensity threshold was set to 0.5 × 10⁻⁵ s⁻¹, with a minimum system lifetime of 2 days; no distance filter was applied.
+
+3. The eight additional fields include T63-filtered vorticity at 850, 700, 600, 500, and 250 hPa, as well as the maximum 925 hPa wind speed, maximum 10 m wind speed, and minimum mean sea level pressure (MSLP).
+
+4. For the Southern Hemisphere, all track files cover the period from July of one year through June of the following year.
+
+5 Not all models provide all simulation types.
+
+6. The naming conventions for the scenarios are described at:
+https://www.primavera-h2020.eu/modelling/our-simulations/

@@ -1,0 +1,9 @@
+This directory contains track files generated using ERA5 reanalysis and CMIP6 model data for both high-resolution simulations (25–50 km) and standard-resolution simulations (100–250 km). The track datasets include all identified systems, as well as the subset of the most intense systems—defined by the 90th percentile of T42-resolution 850-hPa vorticity—stored in the 'perc90' directory. Tracks corresponding to systems that originated in the La Plata region (centered at 30°S, 60°W) are stored in the 'SA_region' directory. Please refer to the associated paper for further methodological details.
+
+Additionally, we include track datasets covering the entire Southern Hemisphere. The analysis includes spatial statistics (e.g., track density, genesis, and lysis densities), provided in NetCDF format. We also provide compositing output data used to analyze the structure (spatial fields) and lifecycle of the systems.
+
+For the figures presented in the submitted paper "HighResMIP models improve detection of intense cyclones over southeast South America", we provide the corresponding scripts, figure files for reference, and the input data used for track generation and subsequent analyses.
+
+All track data pertaining to cyclones originating in the La Plata region were extracted using an 8° radius spherical cap centered on 30°S, 300°W. The only exception is the allSHtracks directory, which contains all identified tracks across the Southern Hemisphere.
+
+

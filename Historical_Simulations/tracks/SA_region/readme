@@ -1,0 +1,8 @@
+SA region
+ Tracks selected using this command:
+~/TRACK-1.5.2/utils/bin/count -30.0 300.0 8.0 0 0
+
+One additional field: 850-hPa vorticity at full resolution
+          Calculated using regional averages within a two-degree radius.
+          Scaling: -1.0e+5
+
