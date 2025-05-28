@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# git_auto.sh — automatiza add, commit, pull-rebase e push
+# git_auto.sh — automatiza add, commit, pull-rebase e push com mensagem automática
 
 set -e
 
@@ -8,18 +8,19 @@ echo "=============================="
 echo " Iniciando Git Auto-Update  "
 echo "=============================="
 
-# 1) Detecta alterações (modified, deleted e untracked)
+# 1) Verifica alterações
 if [[ -z $(git status --porcelain) ]]; then
   echo "Nenhuma alteração detectada. Saindo."
   exit 0
 fi
 
-# 2) Solicita mensagem de commit
-read -p "Mensagem de commit: " msg
-
-# 3) Stage de todas as mudanças (inclui untracked, modifications e deletions)
+# 2) Stage de todas as mudanças (inclui untracked, modificações e deleções)
 git add -A
 echo "✔️  Todas as mudanças foram staged."
+
+# 3) Mensagem de commit automática com timestamp e lista de arquivos
+files=$(git diff --cached --name-only | tr '\n' ' ')
+msg="Auto-update $(date +'%Y-%m-%d %H:%M:%S') - files: $files"
 
 # 4) Commit
 git commit -m "$msg"
