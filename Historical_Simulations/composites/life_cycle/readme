@@ -1,1 +1,3 @@
 The life cycle of extreme cyclones (90th percentile in T42 850-hPa vorticity) is characterized using single-value properties extracted from full-resolution data along storm tracks, centered at the time of maximum T42 vorticity. Due to the asymmetry of extratropical cyclones, key properties are computed within a 5° radius: MSLP minima are locally identified, winds and vorticity are taken as maximum (or minimum for Southern Hemisphere vorticity), and precipitation is area-averaged. These values are then averaged across defined life cycle stages for analysis.
+
+Teste
