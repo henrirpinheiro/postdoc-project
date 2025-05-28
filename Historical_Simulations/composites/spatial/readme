@@ -1,0 +1,3 @@
+The spatial composites are produced using a system-centered compositing approach, as described in Bengtsson et al. (2007, 2009) and Catto et al. (2010). For extreme cyclones, the 90th percentile of the most intense storms is used, defined by their maximum 850-hPa vorticity at T42. Atmospheric fields such as vorticity, horizontal winds, MSLP, and precipitation are sampled onto a 30° latitude-longitude grid with a 0.5° resolution, centered on the
+storm's vorticity center. The grid, initially aligned with the Equator, is not rotated to preserve geographical features. The
+composite fields represent the cyclones at their peak intensity to capture their most hazardous phase.
