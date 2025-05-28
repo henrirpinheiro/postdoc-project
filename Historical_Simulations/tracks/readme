@@ -1,0 +1,7 @@
+AllSHtracks includes all identified cyclone tracks across the Southern Hemisphere. SA_region contains a subset of tracks originating within the La Plata region, defined by an 8° radius spherical cap centered at 30°S, 300°W. The regional subset was extracted using the following command:
+
+~/TRACK-1.5.2/utils/bin/count trackfile -30.0 300.0 8.0 0 0
+
+Each track file includes an additional field: 850-hPa vorticity at full resolution, computed as a regional average within a 2° radius (scaling factor: -1.0 × 10⁵).
+
+
